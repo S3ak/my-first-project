@@ -1,5 +1,6 @@
-import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import { Bs0SquareFill } from "react-icons/bs";
+
 import "./App.css";
 
 function App() {
@@ -9,12 +10,12 @@ function App() {
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
       </div>
-      <h1 className="heading-section">My first website</h1>
-      <p>This is some text in a paragraph.</p>
+
+      <h1 className="heading-section">
+        <Bs0SquareFill></Bs0SquareFill>Welcome to front end
+      </h1>
+      <p>Where we create magic</p>
       <button className="button">CLick ME</button>
     </>
   );
